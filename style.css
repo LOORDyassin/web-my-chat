@@ -53,6 +53,7 @@ body{
 }
 .form form .field{
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-bottom: 10px;
 }
@@ -83,6 +84,14 @@ body{
     background: #333;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
+}
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 70%;
+    transform: translateY(-50%);
     cursor: pointer;
 }
 .form .link{
