@@ -16,11 +16,11 @@
                 
                 <div class="field input">
                     <label>Email adress</label>
-                    <input type="text" placeholder="Entrer your email">
+                    <input type="email" name="email" placeholder="Entrer your email">
                 </div>
                 <div class="field input">
                     <label>Password</label>
-                    <input type="password" placeholder="Entrer your Password">
+                    <input type="password" name="password" placeholder="Entrer your Password">
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field button">
