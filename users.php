@@ -97,7 +97,8 @@
                     <div class="status-dot"><i class="fas fa-circle"></i></div>
                 </a>
             </div>
-            </section>
-        </div>
+        </section>
+    </div>
+    <script src="javascript/users.js"></script>
 </body>
 </html> 

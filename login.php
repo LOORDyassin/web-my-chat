@@ -9,40 +9,28 @@
 </head>
 <body>
     <div class="wrapper">
-        <section class="form signup">
+        <section class="form login">
             <header>Realtime Chat App</header>
             <form action="#">
-                <div class="error-txt">This is an error message!</div>
-                <div class="name-details">
-                    <div class="field input">
-                        <label>First Name</label>
-                        <input type="text" placeholder="First Name">
-                    </div>
-                    <div class="field input">
-                        <label>Last Name</label>
-                        <input type="text" placeholder="Last Name">
-                    </div>
-                </div>
+                <div class="error-txt"></div>
+                
                 <div class="field input">
                     <label>Email adress</label>
                     <input type="text" placeholder="Entrer your email">
                 </div>
                 <div class="field input">
                     <label>Password</label>
-                    <input type="password" placeholder="Entrer new Password">
+                    <input type="password" placeholder="Entrer your Password">
                     <i class="fas fa-eye"></i>
-                </div>
-                <div class="field image">
-                    <label>Select image</label>
-                    <input type="file">
                 </div>
                 <div class="field button">
                     <input type="submit" value="Continue to Chat">
                 </div>
             </form>
-            <div class="link">Already signed up? <a href="#">Login now</a></div>
+            <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
         </section>
     </div>
     <script src="javascript/script1.js"></script>
+    <script src="javascript/login.js"></script>
 </body>
 </html> 
