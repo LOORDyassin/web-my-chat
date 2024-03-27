@@ -1,6 +1,7 @@
 const form = document.querySelector(".login form"),
 continueBtn = form.querySelector(".button input"),
 errorText = form.querySelector(".error-txt");
+
 form.onsubmit = (e)=>{
     e.preventDefault(); //preventing form from submitting
 }
