@@ -17,10 +17,10 @@
                 }
             ?>    
                 <div class="content">
-                    <img src="php/images/<?php echo $row["img"] ?>" alt="">
+                    <img src="php/images/<?php echo $row['img'] ?>" alt="">
                     <div class="details">
-                        <span><?php echo $row["fname"] . " " . $row["lname"] ?></span>
-                        <p><?php echo $row["status"] ?></p>
+                        <span><?php echo $row['fname'] . " " . $row['lname'] ?></span>
+                        <p><?php echo $row['status'] ?></p>
                     </div>
                 </div>
                 <a href="index.php" class="logout">Logout</a>
@@ -31,6 +31,7 @@
                 <button><i class="fas fa-search"></i></button>
             </div>
             <div class="users-list">  
+                
             </div>
         </section>
     </div>
