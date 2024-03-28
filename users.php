@@ -4,6 +4,7 @@
         header("location: login.php");
     }
 ?>
+
 <?php include_once "header.php"; ?>
 <body>
     <div class="wrapper">
@@ -13,7 +14,7 @@
                 include_once "php/config.php";
                 $sql = mysqli_query($conn, "SELECT * FROM users WHERE unique_id = {$_SESSION['unique_id']}");
                 if(mysqli_num_rows($sql) > 0){
-                $row = mysqli_fetch_assoc($sql);
+                    $row = mysqli_fetch_assoc($sql);
                 }
             ?>    
                 <div class="content">
